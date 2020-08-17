@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedievalText Helper</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h1>Sir Gawain and the Green Knight</h1>
+            <h2>A Dual View of SGGK's Transcription And The Manuscript</h2>
+        </div>
+        <div class="mid-container">
+            <div class="column">
+                <iframe title="Project Gutenberg: SGGK Text" id="sggk" src="doc\textSGGK_HTML.html"></iframe>
+            </div>
+            <div class="column" id="imgCont">
+                <img title="MS Cotton Nero a.x." id="msSggk" src="images/folio_0.jpg">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="navbar">
+                <button onclick="lastPage()">Back</button>
+                <button onclick="nextPage()">Next</button>
+            </div>
+            <div class="navbar">
+                <a href="http://www.gutenberg.org/ebooks/14568"><i>Sir Gawayne and the Green Knight</i> from Project Gutenberg</a>
+                <a href="http://contentdm.ucalgary.ca/digital/collection/gawain">Scanned MS Cotton Nero A.x</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
